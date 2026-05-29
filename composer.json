@@ -1,0 +1,23 @@
+{
+    "name": "gnfsys/php-helpers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GNfsys\\Helpers\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.4||^8.5",
+        "ext-fileinfo": "*",
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^13",
+        "phpstan/phpstan-strict-rules": "^2.0"
+    }
+}
